@@ -33,7 +33,7 @@ export default function App() {
       <Footer />
       
       {idShowModal && (
-        <ModalContainer isOpen={!!idShowModal} onClose={handleCloseModal}>
+        <ModalContainer isOpen={idShowModal} onClose={handleCloseModal}>
           {getContentModal(idShowModal, { onClose: handleCloseModal, stateBasket })}
         </ModalContainer>
       )}
