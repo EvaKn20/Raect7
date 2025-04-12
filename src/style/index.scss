@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input{
+  border: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/src/assets/fonts/Nunito-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/src/assets/fonts/Nunito-SemiBold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/src/assets/fonts/Nunito-ExtraBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Nunito";
+}

@@ -1,0 +1,143 @@
+.wr_footer {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  padding-top: 51px;
+  padding-left: 75px;
+  padding-bottom: 40px;
+
+  .footer_content {
+    height: 153px;
+    display: flex;
+    gap: 360px;
+
+    .footer_content_logo {
+      display: flex;
+      flex-direction: column;
+      gap: 59px;
+
+      .footer_content_logo_img {
+        height: 58px;
+        .img {
+          height: 58px;
+        }
+      }
+
+      .footer_content_logo_text {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 12px;
+      }
+    }
+
+    .footer_content_logo_text_mobile {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1081px) {
+  .wr_footer {
+    .footer_content {
+      gap: 300px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .wr_footer {
+    .footer_content {
+      gap: 242px;
+      .footer_content_links {
+        gap: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 905px) {
+  .wr_footer {
+    .footer_content {
+      gap: 150px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wr_footer {
+    padding-left: 40px;
+    .footer_content {
+      gap: 50px;
+      .footer_content_links {
+        gap: 30px;
+      }
+    }
+  }
+}
+@media (max-width: 625px) {
+  .wr_footer {
+    max-width: 500px;
+    padding: 24px 10px;
+
+    .footer_content {
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
+
+      .footer_content_logo {
+        gap: 24px;
+        img {
+          height: 38px;
+          width: 196px;
+        }
+
+        .footer_content_logo_text {
+          display: none;
+        }
+      }
+
+      .footer_content_logo_text_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 12px;
+      }
+      .footer_content_links {
+        flex-direction: column;
+        gap: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .wr_footer {
+    padding: 24px 10px;
+
+    .footer_content {
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
+
+      .footer_content_logo {
+        gap: 24px;
+        img {
+          height: 38px;
+          width: 196px;
+        }
+
+        .footer_content_logo_text {
+          display: none;
+        }
+      }
+
+      .footer_content_logo_text_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 12px;
+      }
+      .footer_content_links {
+        flex-direction: column;
+        gap: 24px;
+      }
+    }
+  }
+}

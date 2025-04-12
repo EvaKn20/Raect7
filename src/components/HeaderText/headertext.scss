@@ -1,0 +1,115 @@
+.header_text {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  width: 100%;
+
+  .header_text_title_container1 {
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    .header_text_title {
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+    }
+    .header_text_title1 {
+      color: #ff5c00;
+      font-size: 50px;
+      font-weight: 700;
+    }
+  }
+  .header_text_title_container2 {
+    .header_text_title2 {
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  .header_text {
+    .header_text_title_container1 {
+      .header_text_title {
+        font-size: 36px;
+      }
+      .header_text_title1 {
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header_text {
+    gap: 30px;
+    .header_text_title_container1 {
+      .header_text_title {
+        font-size: 36px;
+      }
+      .header_text_title1 {
+        font-size: 36px;
+      }
+    }
+  }
+}
+@media (max-width: 625px) {
+  .header_text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+
+    .header_text_title_container1 {
+      display: flex;
+      flex-direction: column;
+      .header_text_title {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .header_text_title1 {
+        color: #ff5c00;
+        font-size: 30px;
+        font-weight: 700;
+      }
+    }
+    .header_text_title_container2 {
+      .header_text_title2 {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .header_text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+
+    .header_text_title_container1 {
+      display: flex;
+      flex-direction: column;
+      .header_text_title {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .header_text_title1 {
+        color: #ff5c00;
+        font-size: 30px;
+        font-weight: 700;
+      }
+    }
+    .header_text_title_container2 {
+      .header_text_title2 {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
